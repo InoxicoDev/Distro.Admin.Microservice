@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Distro.Seedworks.Instrumentation\Distro.Seedworks.Instrumentation\Distro.Seedworks.Instrumentation.csproj" />
+    <ProjectReference Include="..\Distro.Seedworks.Instrumentation\Distro.Seedworks.Instrumentation\Distro.Seedworks.Instrumentation.csproj" />
     <ProjectReference Include="..\Distro.Admin.DataAccess\Distro.Admin.DataAccess.csproj" />
     <ProjectReference Include="..\Distro.Admin.Domain\Distro.Admin.Domain.csproj" />
   </ItemGroup>
