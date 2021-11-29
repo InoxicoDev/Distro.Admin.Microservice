@@ -11,19 +11,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Infrastructure", "0. Inf
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Domain", "2. Domain", "{7BD63849-60AE-49AB-BFA5-2C85EE14FEA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distro.Admin.Distribution", "Distro.Admin.Distribution\Distro.Admin.Distribution.csproj", "{4CF2BA61-0546-40DC-9B8E-41DC5FE56B3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distro.Admin.Distribution", "Distro.Admin.Distribution\Distro.Admin.Distribution.csproj", "{4CF2BA61-0546-40DC-9B8E-41DC5FE56B3C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Distribution", "1. Distribution", "{F27888CF-00BE-401B-A375-C3BC170EF2B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distro.Admin.DataAccess", "Distro.Admin.DataAccess\Distro.Admin.DataAccess.csproj", "{A3130623-8BD9-4F87-81D1-CD8088CA339F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distro.Admin.DataAccess", "Distro.Admin.DataAccess\Distro.Admin.DataAccess.csproj", "{A3130623-8BD9-4F87-81D1-CD8088CA339F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Data Access", "3. Data Access", "{740C0539-1288-4CBF-B506-E4CF15769F1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distro.Admin.Tests", "Distro.Admin.Tests\Distro.Admin.Tests.csproj", "{FE4FD2FF-4FBC-47BC-9E70-0E2070C3B02D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distro.Admin.Tests", "Distro.Admin.Tests\Distro.Admin.Tests.csproj", "{FE4FD2FF-4FBC-47BC-9E70-0E2070C3B02D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Testing", "4. Testing", "{92EA6BA7-8FE1-44AE-8379-F87BF96D30F0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distro.Seedworks.Instrumentation", "..\Distro.Seedworks.Instrumentation\Distro.Seedworks.Instrumentation\Distro.Seedworks.Instrumentation.csproj", "{B3E4A731-F104-46F2-AB3B-98EB50BED03B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distro.Seedworks.DataAccess", "..\Distro.Seedworks.DataAccess\Distro.Seedworks.DataAccess\Distro.Seedworks.DataAccess.csproj", "{B38B7AA4-38CE-4965-AD9A-DBAB7BF349AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{B3E4A731-F104-46F2-AB3B-98EB50BED03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3E4A731-F104-46F2-AB3B-98EB50BED03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3E4A731-F104-46F2-AB3B-98EB50BED03B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B38B7AA4-38CE-4965-AD9A-DBAB7BF349AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B38B7AA4-38CE-4965-AD9A-DBAB7BF349AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B38B7AA4-38CE-4965-AD9A-DBAB7BF349AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B38B7AA4-38CE-4965-AD9A-DBAB7BF349AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +72,7 @@ Global
 		{A3130623-8BD9-4F87-81D1-CD8088CA339F} = {740C0539-1288-4CBF-B506-E4CF15769F1C}
 		{FE4FD2FF-4FBC-47BC-9E70-0E2070C3B02D} = {92EA6BA7-8FE1-44AE-8379-F87BF96D30F0}
 		{B3E4A731-F104-46F2-AB3B-98EB50BED03B} = {88107D5E-BA30-43FA-95F5-46D456E7E1DA}
+		{B38B7AA4-38CE-4965-AD9A-DBAB7BF349AD} = {740C0539-1288-4CBF-B506-E4CF15769F1C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5351531E-A3C7-425A-85D3-80BDC4E7324C}
