@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distro.Seedworks.DataAccess
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distro.Seedworks.Instrumentation", "Distro.Seedworks.Instrumentation\Distro.Seedworks.Instrumentation\Distro.Seedworks.Instrumentation.csproj", "{959BF7E4-D825-40A3-A61C-EBF0A7A47420}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distro.Admin.Contracts", "Distro.Admin.Contracts\Distro.Admin.Contracts.csproj", "{4A7B54E1-5DBC-42D7-8782-088468100F97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{959BF7E4-D825-40A3-A61C-EBF0A7A47420}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{959BF7E4-D825-40A3-A61C-EBF0A7A47420}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{959BF7E4-D825-40A3-A61C-EBF0A7A47420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A7B54E1-5DBC-42D7-8782-088468100F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A7B54E1-5DBC-42D7-8782-088468100F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A7B54E1-5DBC-42D7-8782-088468100F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A7B54E1-5DBC-42D7-8782-088468100F97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +79,7 @@ Global
 		{FE4FD2FF-4FBC-47BC-9E70-0E2070C3B02D} = {92EA6BA7-8FE1-44AE-8379-F87BF96D30F0}
 		{8003BBDA-96BE-41BC-AF1D-604C81AEB357} = {740C0539-1288-4CBF-B506-E4CF15769F1C}
 		{959BF7E4-D825-40A3-A61C-EBF0A7A47420} = {88107D5E-BA30-43FA-95F5-46D456E7E1DA}
+		{4A7B54E1-5DBC-42D7-8782-088468100F97} = {7BD63849-60AE-49AB-BFA5-2C85EE14FEA9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5351531E-A3C7-425A-85D3-80BDC4E7324C}
