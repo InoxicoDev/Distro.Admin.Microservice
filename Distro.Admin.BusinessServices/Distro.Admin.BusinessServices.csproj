@@ -7,11 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Distro.Seedworks.DataAccess\Distro.Seedworks.DataAccess\Distro.Seedworks.DataAccess.csproj" />
+    <ProjectReference Include="..\Distro.Admin.Contracts\Distro.Admin.Contracts.csproj" />
   </ItemGroup>
 
 </Project>
