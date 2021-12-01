@@ -1,4 +1,4 @@
-﻿using Distro.Seedworks.DataAccess.Respository.Contracts;
+﻿using Distro.Seedworks.Infrastructure.DataAccess;
 
 namespace Distro.Admin.Contracts.Entities
 {
