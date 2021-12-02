@@ -2,7 +2,7 @@ using Xunit;
 
 namespace Distro.Admin.Tests
 {
-    public class UnitTest1
+    public class BasicTests
     {
         [Fact]
         public void Test1()

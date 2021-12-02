@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Distro.Admin.Contracts.Entities;
 
 namespace Distro.Admin.Contracts.Services
 {
     public interface ICustomerService
     {
+        public Customer GetCustomerById(Guid id);
+
+        public Customer AddCustomer(Customer customer);
     }
 }

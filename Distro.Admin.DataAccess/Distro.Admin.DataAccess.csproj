@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Distro.Admin.Contracts\Distro.Admin.Contracts.csproj" />
     <ProjectReference Include="..\Distro.Seedworks.Infrastructure\Distro.Seedworks.Infrastructure\Distro.Seedworks.Infrastructure.csproj" />
   </ItemGroup>
 
