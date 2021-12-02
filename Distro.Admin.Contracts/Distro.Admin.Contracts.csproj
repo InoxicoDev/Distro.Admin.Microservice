@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Distro.Seedworks.Infrastructure\Distro.Seedworks.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Distro.Seedworks.Infrastructure\Distro.Seedworks.Infrastructure\Distro.Seedworks.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
