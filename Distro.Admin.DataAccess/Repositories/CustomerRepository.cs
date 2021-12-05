@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Distro.Admin.DataAccess.Repositories
 {
-    internal class CustomerRepository : RepositoryBase<Customer>
+    public class CustomerRepository : RepositoryBase<Customer>
     {
         public CustomerRepository(DbContext dataContext) : base(dataContext)
         {

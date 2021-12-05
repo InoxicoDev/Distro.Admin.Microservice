@@ -4,7 +4,7 @@ using Distro.Seedworks.Infrastructure.DataAccess;
 
 namespace Distro.Admin.BusinessServices.Services
 {
-    internal class UserService : IUserService
+    public class UserService : IUserService
     {
         private IRepository<User> _userRepository;
 
