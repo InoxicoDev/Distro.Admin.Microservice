@@ -20,4 +20,10 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Distro.Admin.BusinessServices\Distro.Admin.BusinessServices.csproj" />
+    <ProjectReference Include="..\Distro.Admin.DataAccess\Distro.Admin.DataAccess.csproj" />
+    <ProjectReference Include="..\Distro.Seedworks.Infrastructure\Distro.Seedworks.Infrastructure\Distro.Seedworks.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
